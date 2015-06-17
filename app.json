@@ -1,13 +1,13 @@
 {
   "name": "NSA To-Go",
-  "description": "A site that you can set up to steal your information! Wow!",
+  "description": "A web app that gives you an API to your life.",
   "repository": "https://github.com/tjhorner/me-tjhorner-com",
   "website": "https://me.tjhorner.com",
   "success_url": "/",
   "env": {
     "CONFIG": {
-      "description": "Minified config file, change this accordingly",
-      "value": "{\"keys\":{\"toggl\":\"toggl_key\",\"lastfm\":{\"key\":\"lastfm_key\",\"secret\":\"lastfm_secret\",\"username\":\"lastfm_username\"}}}"
+      "description": "Minified config file, change variables in brackets accordingly.",
+      "value": "{\"keys\":{\"toggl\":\"[TOGGL_KEY_HERE]\",\"lastfm\":{\"key\":\"[LASTFM_API_KEY_HERE]\",\"secret\":\"[LASTFM_API_SECRET_HERE]\",\"username\":\"lastfm_username\"}}}"
     }
   }
 }
