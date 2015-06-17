@@ -7,7 +7,7 @@
   "env": {
     "CONFIG": {
       "description": "Minified config file, change variables in brackets accordingly.",
-      "value": "{\"keys\":{\"toggl\":\"[TOGGL_KEY_HERE]\",\"lastfm\":{\"key\":\"[LASTFM_API_KEY_HERE]\",\"secret\":\"[LASTFM_API_SECRET_HERE]\",\"username\":\"lastfm_username\"}}}"
+      "value": "{\"keys\":{\"toggl\":\"[TOGGL_KEY_HERE]\",\"lastfm\":{\"key\":\"[LASTFM_API_KEY_HERE]\",\"secret\":\"[LASTFM_API_SECRET_HERE]\",\"username\":\"[LASTFM_USERNAME_HERE]\"}}}"
     }
   }
 }
