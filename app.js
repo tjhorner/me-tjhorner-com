@@ -29,7 +29,7 @@ function nowPlaying(){
   if(nowPlayingSong.name){
     return {
       track: nowPlayingSong.name,
-      atrist: nowPlayingSong.artist["#text"],
+      artist: nowPlayingSong.artist["#text"],
       image: nowPlayingSong.image[3]["#text"],
       playing: true
     };
