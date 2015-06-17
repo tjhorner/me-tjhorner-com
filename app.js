@@ -30,7 +30,7 @@ function nowPlaying(){
     return {
       track: nowPlayingSong.name,
       artist: nowPlayingSong.artist["#text"],
-      image: nowPlayingSong.image[3]["#text"],
+      image: nowPlayingSong.image[nowPlayingSong.image.length-1]["#text"],
       playing: true
     };
   }else{
