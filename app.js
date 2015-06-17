@@ -30,7 +30,7 @@ function nowPlaying(){
     return {
       track: nowPlayingSong.name,
       artist: nowPlayingSong.artist["#text"],
-      image: nowPlayingSong.image[nowPlayingSong.image.length-1]["#text"],
+      image: nowPlayingSong.image[nowPlayingSong.image.length-1]["#text"] || "http://a5.mzstatic.com/us/r30/Purple3/v4/54/24/28/54242884-8dd5-83cb-1996-4a21295955de/icon175x175.png",
       playing: true
     };
   }else{
