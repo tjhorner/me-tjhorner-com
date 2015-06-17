@@ -45,6 +45,12 @@ function nowPlaying(){
 
 function getMyData(){
   return {
+    introduction: "Welcome to me.tjhorner.com, the API for my life. " +
+                  "If you aren't on it, there's a /jsonp endpoint that " +
+                  "triggers a `load` function with this data. I'll be " +
+                  "adding more stuff to this over time, like recent photos " +
+                  "that I took with my phone. Enjoy your stay! PS: This is " +
+                  "open source. https://horner.tj/p/me-tjhorner-com",
     toggl: {
       project: latestEntry.projectName,
       entry: latestEntry.description,
