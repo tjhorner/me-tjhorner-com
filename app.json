@@ -1,6 +1,7 @@
 {
   "name": "NSA To-Go",
   "description": "A site that you can set up to steal your information! Wow!",
+  "repository": "https://github.com/tjhorner/me-tjhorner-com",
   "website": "https://me.tjhorner.com",
   "success_url": "/",
   "env": {
